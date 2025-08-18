@@ -1,0 +1,6 @@
+# Ignore local checkpoints and editor junk
+configs/.checkpoints/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

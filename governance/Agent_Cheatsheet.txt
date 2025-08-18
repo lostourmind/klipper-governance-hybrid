@@ -1,0 +1,7 @@
+AGENT CHEATSHEET – Validation & Gating
+
+- Canary-first: patch ONE macro; stop and wait for 'promote' after a clean run.
+- Mass-edit gate: show diffs; require 'promote' approval.
+- Multi-attempt throttle: after 2 failed tries on same error, HALT; request context lines.
+- Rollback checkpoint: save configs/.checkpoints/printer.cfg.ckpt.<DATE> before multi-line patches.
+- RESPOND MSG only; no semicolons or [] inside messages; indent under gcode:; avoid M118 unless requested.
