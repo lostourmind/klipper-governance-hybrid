@@ -1,0 +1,8 @@
+# .klipperlint.toml
+[general]
+strict_ascii = true
+allow_m118 = false
+fail_on_warn = false    # set true to elevate P3 to hard fail
+
+[paths]
+globs = ["printer.cfg", "macros/**.cfg", "macros/**.conf", "macros/**.gcode", "macros/**.macro", "macros/**.txt", "config/**.cfg"]
